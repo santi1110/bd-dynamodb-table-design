@@ -91,7 +91,7 @@ Resources:
       Role:
         Fn::GetAtt: [ LambdaRole , "Arn" ]
       # 2023-09-28: [bp] updated from nodejs12.x
-      Runtime: nodejs17.x
+      Runtime: nodejs18.x
       Timeout: 60
   InitializeEventsTable:
     Type: Custom::InitFunction
